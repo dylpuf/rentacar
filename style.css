@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #222;
 }
 
 nav {
@@ -26,6 +27,45 @@ nav a:hover {
 }
 
 nav img {
-    max-height: 40px; /* Aanpassen aan de gewenste hoogte van het logo */
+    max-height: 40px; 
     margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+/* ... (bestaande stijlen hierboven) ... */
+
+.carousel-container {
+    max-width: 800px; /* Aanpassen indien nodig */
+    margin: 2px auto;
+    
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ... (bestaande stijlen hieronder) ... */
+
+p{
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
 }
