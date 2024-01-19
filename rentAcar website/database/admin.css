@@ -1,0 +1,104 @@
+
+body, h1, h2, ul, edit {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.sectie {
+    padding: 20px;
+}
+
+.sectie h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.edit-sectie {
+    float: left;
+    width: 48%; 
+    margin-right: 2%;
+}
+
+.edit-sectie:last-child {
+    margin-right: 0;
+}
+
+.edit-sectie label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.edit-sectie input[type="text"],
+.edit-sectie textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-sectie input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-sectie input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.lijst-sectie {
+    float: left;
+    width: 48%; 
+}
+
+.lijst-sectie ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lijst-sectie li {
+    margin-bottom: 10px;
+}
+
+.achtergrond::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
